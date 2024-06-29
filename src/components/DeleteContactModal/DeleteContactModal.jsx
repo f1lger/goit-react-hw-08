@@ -18,7 +18,7 @@ export default function DeleteModal({ id, onReject }) {
     <div className={style.deleteModalCont}>
       <p>Are you sure you want to delete this user?</p>
       <div className={style.btnCont}>
-        <button type="submit" onClick={() => hanldeDelete}>
+        <button type="submit" onClick={hanldeDelete}>
           Yes
         </button>
         <button type="submit" onClick={onReject}>
