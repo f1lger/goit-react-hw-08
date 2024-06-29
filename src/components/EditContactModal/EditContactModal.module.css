@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+.btnCont {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.inputCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.inputCont > label {
+  display: flex;
+  flex-direction: column;
+}

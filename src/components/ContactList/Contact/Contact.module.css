@@ -1,0 +1,30 @@
+p {
+  margin: 0;
+}
+.contactsItemCont {
+  list-style-type: none;
+  width: 300px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+}
+.contactWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.btnCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btnCont > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45%;
+}

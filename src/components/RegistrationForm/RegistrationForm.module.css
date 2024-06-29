@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.labelCont {
+  display: flex;
+  flex-direction: column;
+}
+.labelCont > label {
+  display: flex;
+  flex-direction: column;
+}

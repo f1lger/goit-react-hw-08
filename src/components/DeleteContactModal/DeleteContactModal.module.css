@@ -1,0 +1,10 @@
+.deleteModalCont {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.btnCont {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
